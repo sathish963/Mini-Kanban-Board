@@ -71,3 +71,10 @@ export default defineConfig([
   },
 ])
 ```
+
+## Challenges While creating board
+
+I have facing issue with react-beautifull-dnd says that when ever I use index as draggableId which throws an error called draggable index not found.
+
+###### Solution:
+I went through on multi documentation and One of them says that we need to create our own unique id to resolve this issue and I implemented it by using Math.random() and Date.now().
