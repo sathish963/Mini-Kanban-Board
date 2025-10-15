@@ -2,15 +2,35 @@
 
 Install node js, [NodeJS](https://nodejs.org/en/download)
 
-check node version user node -v // require 22+ to run this application
+check node version using 
+
+```js
+  node -v // require 22+ to run this application
+```
 
 Run 'npm install' in project folder, if face any errors try 'npm install --force'
+```js
+  npm install 
+  // (or)
+  npm install --force
+```
 
 Once you successfully install packages.
 then run:
-  'npm run dev'
+```js
+  npm run dev
+```
 
 And open [http://localhost:5173/](http://localhost:5173/) given url in any Browser
+
+# Features
+* Impletate Drag and Drop to handle Task status.
+* Create re-usable Components.
+* Implemented Progress bar to indicate task completion ratio.
+* Added Quick Filter for priority basis.
+* Implemented Search filter.
+* Edit and Delete functionality for tasks.
+* Create theme switching functionality.
 
 ## Challenges While creating board
 
