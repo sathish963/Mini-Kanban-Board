@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+	--color-primary: white;
+	--color-o-primary: black;
+	--color-secondary: rgba(150, 150, 150, 0.125);
+	--color-gray-900: #585751;
+	--color-gray-100: #969696;
+	--color-pink: #fac3ff;
+	--color-sky-blue: #85d9f1;
+	--color-parrot-green: rgb(206, 255, 204);
+	--color-gray-500: #4d4d4d;
+}
+
+.backdrop-blur-xs {
+	backdrop-filter: blur(3px);
+}
